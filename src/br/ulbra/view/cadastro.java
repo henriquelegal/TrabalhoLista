@@ -462,8 +462,8 @@ public class cadastro extends javax.swing.JFrame {
         int indice = Integer.parseInt(Ednum5.getText());
         String novoItem = Ednum6.getText();
         trabalho1.atualizar(indice, novoItem);
-        String listaFormatada = trabalho1.listar();
-        Arlista1.setText(listaFormatada);
+        String listaAtual = trabalho1.listar();
+        Arlista1.setText(listaAtual);
     }//GEN-LAST:event_jAlterarActionPerformed
 
     private void Ednum7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ednum7ActionPerformed
